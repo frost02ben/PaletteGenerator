@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PaletteGenerator</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet"
+  />
+</head>
+<body>
+
+    <div class="heading">
+        <img src="/Assets/Bf-logo-gb-nb.svg" >
+<h1>Colour Palette</h1>
+        <div id="space"></div>
+      <div class="operations">  
+    
+    <label for="quantity" >Quantity:</label>
+<input type="range" id="myRange" name="quantity" min="1" max="5" value="3" >
+<button id="generate-btn" >Generate</button>
+<a onclick="changeMode()" ><i class="fa-solid fa-moon"></i></a>
+    </div>
+    </div>  
+
+    <div id="color-container" ></div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
